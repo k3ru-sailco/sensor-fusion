@@ -9,7 +9,7 @@ The downside to the use of this method is that the orientation events are not as
 More information regarding this topic can be found on a [blog post](https://plaw.info/articles/sensorfusion/) made by Paul Lawitzki on Android sensor fusion, and applying a complimentrary filter to reduce or eradicate gyroscope drift and the aformentined magnetometer and gravity drift. This post also served as a great reference while porting similar methods to Go.
 
 ## Usage
-
+```go
     package main
 
     import "log"
@@ -32,3 +32,4 @@ More information regarding this topic can be found on a [blog post](https://plaw
 		log.Println(orientation)
 	}
     }
+```
